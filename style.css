@@ -1,0 +1,23 @@
+#RF{
+    cursor: not-allowed;
+    font-size: 45px !important;
+}
+.hover{
+    cursor: not-allowed;
+}
+.hover:hover{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #03fcf4;
+    color: #ffffff;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 20px #fff700;}
+    to{box-shadow: 5px 5px 35px #00ff66;}
+}
